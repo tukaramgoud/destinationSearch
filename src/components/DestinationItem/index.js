@@ -6,7 +6,7 @@ const DestinationItem = props => {
   const {imgUrl, name} = itemDetails
   return (
     <li className="item-sizing">
-      <img src={imgUrl} alt="some" className="image-sizing" />
+      <img src={imgUrl} alt={name} className="image-sizing" />
       <p className="item-para">{name}</p>
     </li>
   )
