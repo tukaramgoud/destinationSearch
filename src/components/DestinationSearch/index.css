@@ -15,6 +15,7 @@
 }
 .input-container {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   background-color: #f1f5f9;
@@ -28,7 +29,16 @@
   border-width: 0px;
   outline: none;
   font-size: 15px;
+  color: #252627;
+  font-weight: 600;
 }
 .icon-sizing {
   height: 20px;
+}
+.list-styling {
+  list-style: none;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
